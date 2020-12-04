@@ -16,6 +16,7 @@ namespace lambdaExpressionsDemo
             AverageAge(personInCity);
             ToCheckNameExistence(personInCity);
             ToSkipRecords(personInCity);
+            ToRemoveANameFromRecord(personInCity);
         }
         public static void AddingRecords(List<Person> personInCity)
         {
@@ -74,6 +75,20 @@ namespace lambdaExpressionsDemo
             foreach (Person person in personInCity.SkipWhile(s => s.Age < 60))
             {
                 Console.WriteLine("Name is " + person.Name + " and age is " + person.Age  );
+            }
+        }
+
+        private static void ToRemoveANameFromRecord (List<Person> personInCity)
+        {
+            Console.WriteLine("====================================================");
+            personInCity.RemoveAll(s => s.Name == "Harry");
+            Console.WriteLine("The name has been removed ");
+            if (!personInCity.Exists(e => e.Name == "Harry")) {
+                Console.WriteLine("Name does not exist !!!");
+            }
+            else
+            {
+                Console.WriteLine("Name is stil present!");
             }
         }
 
