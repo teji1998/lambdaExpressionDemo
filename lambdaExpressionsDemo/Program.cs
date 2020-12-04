@@ -13,6 +13,7 @@ namespace lambdaExpressionsDemo
             AddingRecords(personInCity);
             ToGetTopTwoRecordsLessThanSixty(personInCity);
             TeenageAge(personInCity);
+            AverageAge(personInCity);
         }
         public static void AddingRecords(List<Person> personInCity)
         {
@@ -42,5 +43,14 @@ namespace lambdaExpressionsDemo
                 Console.WriteLine("Teenagers are absent");
             }
         }
+
+        private static void AverageAge(List<Person>personInCity)
+        {
+            double averageAge = personInCity.Average(avgAge => avgAge.Age);
+            Console.WriteLine("The average of the age of the people in the list : " +averageAge);
+        }
+
+
+
     }
 }
