@@ -14,6 +14,7 @@ namespace lambdaExpressionsDemo
             ToGetTopTwoRecordsLessThanSixty(personInCity);
             TeenageAge(personInCity);
             AverageAge(personInCity);
+            ToCheckNameExistence(personInCity);
         }
         public static void AddingRecords(List<Person> personInCity)
         {
@@ -50,7 +51,17 @@ namespace lambdaExpressionsDemo
             Console.WriteLine("The average of the age of the people in the list : " +averageAge);
         }
 
-
+        private static void ToCheckNameExistence(List<Person> personInCity)
+        {
+            if (personInCity.Exists(e => e.Name == "Draco"))
+            {
+                Console.WriteLine("The name exists !!!");
+            }
+            else
+            {
+                Console.WriteLine("The name doesn't exist !!!");
+            }
+        }
 
     }
 }
