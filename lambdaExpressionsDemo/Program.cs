@@ -9,6 +9,7 @@ namespace lambdaExpressionsDemo
         static void Main(string[] args)
         {
             Console.WriteLine("Welcome to world of lambda expression !!!!!");
+            //To create a list
             List<Person> personInCity = new List<Person>();
             AddingRecords(personInCity);
             ToGetTopTwoRecordsLessThanSixty(personInCity);
@@ -18,6 +19,11 @@ namespace lambdaExpressionsDemo
             ToSkipRecords(personInCity);
             ToRemoveANameFromRecord(personInCity);
         }
+
+        /// <summary>
+        /// To add records in a list
+        /// </summary>
+        /// <param name="personInCity"></param>
         public static void AddingRecords(List<Person> personInCity)
         {
             personInCity.Add(new Person("102", "Harry", "London", 23));
@@ -27,6 +33,11 @@ namespace lambdaExpressionsDemo
             personInCity.Add(new Person("15", "snape", "Hogwarts", 150));
            
         }
+
+        /// <summary>
+        /// To get top two records whose age is less than sixty
+        /// </summary>
+        /// <param name="personInCity"></param>
         private static void ToGetTopTwoRecordsLessThanSixty(List<Person> personInCity)
         {
             Console.WriteLine("====================================================");
@@ -36,6 +47,11 @@ namespace lambdaExpressionsDemo
                 }
             
         }
+
+        /// <summary>
+        /// To find if the records consist of teenage age people
+        /// </summary>
+        /// <param name="personInCity"></param>
         private static void TeenageAge(List<Person>personInCity)
         {
             Console.WriteLine("====================================================");
@@ -49,6 +65,10 @@ namespace lambdaExpressionsDemo
             }
         }
 
+        /// <summary>
+        /// To find the average of all the age of the records in the list
+        /// </summary>
+        /// <param name="personInCity"></param>
         private static void AverageAge(List<Person>personInCity)
         {
             double averageAge = personInCity.Average(avgAge => avgAge.Age);
@@ -56,6 +76,10 @@ namespace lambdaExpressionsDemo
             Console.WriteLine("The average of the age of the people in the list : " +averageAge);
         }
 
+        /// <summary>
+        /// To check if a name exists or not
+        /// </summary>
+        /// <param name="personInCity"></param>
         private static void ToCheckNameExistence(List<Person> personInCity)
         {
             Console.WriteLine("====================================================");
@@ -69,6 +93,10 @@ namespace lambdaExpressionsDemo
             }
         }
 
+        /// <summary>
+        /// To skip records where age is less than 60
+        /// </summary>
+        /// <param name="personInCity"></param>
         private static void ToSkipRecords(List<Person> personInCity)
         {
             Console.WriteLine("====================================================");
@@ -78,6 +106,10 @@ namespace lambdaExpressionsDemo
             }
         }
 
+        /// <summary>
+        /// To remove a name from a record
+        /// </summary>
+        /// <param name="personInCity"></param>
         private static void ToRemoveANameFromRecord (List<Person> personInCity)
         {
             Console.WriteLine("====================================================");
