@@ -1,0 +1,13 @@
+C:\Users\PRITHVIL5\source\repos\lambdaExpressionsDemo\lambdaExpressionsDemo\bin\Debug\netcoreapp3.1\lambdaExpressionsDemo.exe
+C:\Users\PRITHVIL5\source\repos\lambdaExpressionsDemo\lambdaExpressionsDemo\bin\Debug\netcoreapp3.1\lambdaExpressionsDemo.deps.json
+C:\Users\PRITHVIL5\source\repos\lambdaExpressionsDemo\lambdaExpressionsDemo\bin\Debug\netcoreapp3.1\lambdaExpressionsDemo.runtimeconfig.json
+C:\Users\PRITHVIL5\source\repos\lambdaExpressionsDemo\lambdaExpressionsDemo\bin\Debug\netcoreapp3.1\lambdaExpressionsDemo.runtimeconfig.dev.json
+C:\Users\PRITHVIL5\source\repos\lambdaExpressionsDemo\lambdaExpressionsDemo\bin\Debug\netcoreapp3.1\lambdaExpressionsDemo.dll
+C:\Users\PRITHVIL5\source\repos\lambdaExpressionsDemo\lambdaExpressionsDemo\bin\Debug\netcoreapp3.1\lambdaExpressionsDemo.pdb
+C:\Users\PRITHVIL5\source\repos\lambdaExpressionsDemo\lambdaExpressionsDemo\obj\Debug\netcoreapp3.1\lambdaExpressionsDemo.csprojAssemblyReference.cache
+C:\Users\PRITHVIL5\source\repos\lambdaExpressionsDemo\lambdaExpressionsDemo\obj\Debug\netcoreapp3.1\lambdaExpressionsDemo.AssemblyInfoInputs.cache
+C:\Users\PRITHVIL5\source\repos\lambdaExpressionsDemo\lambdaExpressionsDemo\obj\Debug\netcoreapp3.1\lambdaExpressionsDemo.AssemblyInfo.cs
+C:\Users\PRITHVIL5\source\repos\lambdaExpressionsDemo\lambdaExpressionsDemo\obj\Debug\netcoreapp3.1\lambdaExpressionsDemo.csproj.CoreCompileInputs.cache
+C:\Users\PRITHVIL5\source\repos\lambdaExpressionsDemo\lambdaExpressionsDemo\obj\Debug\netcoreapp3.1\lambdaExpressionsDemo.dll
+C:\Users\PRITHVIL5\source\repos\lambdaExpressionsDemo\lambdaExpressionsDemo\obj\Debug\netcoreapp3.1\lambdaExpressionsDemo.pdb
+C:\Users\PRITHVIL5\source\repos\lambdaExpressionsDemo\lambdaExpressionsDemo\obj\Debug\netcoreapp3.1\lambdaExpressionsDemo.genruntimeconfig.cache
